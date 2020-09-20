@@ -15,7 +15,7 @@ public class ProgramadoresController {
     private ProgramadoresService prcService;
 
     @GetMapping("list")
-    public List<Programadores> list(){
+    public List<Programadores> list() {
         return prcService.findAll();
     }
 }
